@@ -1,0 +1,23 @@
+
+
+spring:
+  application:
+    name: USER-SERVICE
+  #security:
+    #user:
+      #name: root
+      #password: Pwd1
+
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/mssecurityjwt
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
